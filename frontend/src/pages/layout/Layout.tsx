@@ -79,6 +79,10 @@ const Layout = () => {
         <Stack horizontal verticalAlign="center" horizontalAlign="space-between">
           <Stack horizontal verticalAlign="center">
             <img src={logo} className={styles.headerIcon} aria-hidden="true" alt="" />
+
+            <img src='https://www.faa.gov/themes/custom/dot_cms/images/assets/us_flag_small.svg'>
+            </img>
+
             <Link to="/" className={styles.headerTitleContainer}>
               <h1 className={styles.headerTitle}>{ui?.title}</h1>
             </Link>
