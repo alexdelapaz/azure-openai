@@ -18,7 +18,7 @@ export default function App() {
   return (
     <AppStateProvider>
 
-      <MessageDialog/>
+      <MessageDialog></MessageDialog>
 
       <HashRouter>
         <Routes>

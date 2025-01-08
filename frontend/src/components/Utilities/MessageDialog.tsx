@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from 'react';
-import ReactDOM from 'react-dom';
+import { useState, useEffect } from 'react';
 import { Dialog, DialogFooter, PrimaryButton, DefaultButton } from '@fluentui/react';
 
 
@@ -29,8 +28,7 @@ export const MessageDialog = () => {
   };
 
   return (
-    <div>
-      {/* Dialog */}
+    <>
       <Dialog
         hidden={!isDialogVisible}
         onDismiss={() => {}}
@@ -44,6 +42,6 @@ export const MessageDialog = () => {
           <DefaultButton onClick={rosu_deny} text="I Deny" />
         </DialogFooter>
       </Dialog>
-    </div>
+    </>
   );
 };
