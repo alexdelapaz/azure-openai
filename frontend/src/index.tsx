@@ -18,6 +18,8 @@ export default function App() {
   return (
     <AppStateProvider>
 
+      <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Seal_of_the_United_States_Federal_Aviation_Administration.svg/200px-Seal_of_the_United_States_Federal_Aviation_Administration.svg.png'>
+      </img>
       <MessageDialog></MessageDialog>
 
       <HashRouter>
